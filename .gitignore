@@ -1,0 +1,10 @@
+# compressed file
+*.zip
+*.tar
+
+# test file
+test.*
+test/
+
+# output
+*output.*
