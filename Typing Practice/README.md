@@ -1,5 +1,9 @@
 # Typing Practice
-[Typing Practice (keybr.com)](https://www.keybr.com/)
+## Intro
+
+Typing is an essential skill as a programmer. This code generate random characters that can be used in [Typing Practice (keybr.com)](https://www.keybr.com/)
+
+Hope you Have Fun:smiley:
 
 ## Steps
 
@@ -15,17 +19,16 @@
 
 ### optional arguments
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -l LENGTH, --length LENGTH
-                        Number of section (default: 64)
-  -i INTERVAL, --interval INTERVAL
-                        Section length (default: 8)
-  -n, --number          Generate number or not
-  -s, --special         Generate special characters or not
-  -c, --capital         Generate capital letter or not
+| Arguments | Description |
+| ---- | ---- |
+|-h, --help|show this help message and exit|
+|-l LENGTH, --length LENGTH|Number of section (default: 64)|
+|-i INTERVAL, --interval INTERVAL|Section length (default: 8)|
+|-n, --number|Generate number or not|
+|-s, --special|Generate special characters or not|
+|-c, --capital|Generate capital letter or |
 
-
+### Example
 
 ` python3 .\TypingPractice.py -s -n`
 
